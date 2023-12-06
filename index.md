@@ -79,17 +79,43 @@
   height: 100%;
 }
 </style>
-<!-- ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-<!-- 
-### Category Name 2
+---
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+### Lingua AR (AR Language Learning)
 
---- -->
+**Technology utilized:**
+1. Unity engine with C# script is used to develop this project.
+2. JIRA is used for project management
+3. Gitlab is used for version control
+4. Utilization of Google Cloud translation API and Amazon Polly text-to-speech API.
+5. Utilization of OpenCV for Unity plugin.
+
+**Tasks done:**
+1. Detecting objects in the camera and translate them into different languages.
+2. Creating a shooting game that match objects with their corresponding words in different languages.
+3. Sending web request for translation and synthesize text-to-speech voice.
+
+<div class="embed-container">
+    <iframe width="640" height="390" 
+    src="https://www.youtube.com/embed/TdgPngYVRVE?si=vJ7wvv7ZS9skhbzZ" 
+    frameborder="0" allowfullscreen></iframe>
+</div>
+<style>
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
